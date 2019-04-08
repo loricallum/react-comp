@@ -16,7 +16,7 @@ var MessageContainer = React.createClass({
   },
 
   render: function () {
-    var messageText = 'Now you know how React.js components communicate with each other.';
+    var messageText = 'Click to show some love.';
     var buttonText = this.state.isLoved ? 'Unlove' : 'Love';
 
     return (
